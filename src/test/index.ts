@@ -9,7 +9,7 @@ let body = {
     args: {
         pid: process.pid,
         activity: {
-        details: "Discord bot",
+        details: "RichCord",
         state:"Made with love",
         type: 0,
         assets: {
@@ -18,7 +18,7 @@ let body = {
             small_image: "43373",
             small_text: "bottom text"
         },
-        buttons: [{label: 'invite', url: "https://discord.com/oauth2/authorize?client_id=420907324945989632&permissions=2146824183&scope=bot%20applications.commands"}]
+        buttons: [{label: 'discord', url: "https://discord.gg/uyEQkTT "}, {label: 'github', url: 'https://github.com/Jade3375/RichCord'}]
     },
     },
     nonce: "a76a42c0-802d-4c01-23c5-018d61f3499f"
