@@ -18,7 +18,7 @@ let body = {
             small_image: "43373",
             small_text: "bottom text"
         },
-        buttons: [{label: 'discord', url: "https://discord.gg/uyEQkTT "}, {label: 'github', url: 'https://github.com/Jade3375/RichCord'}]
+        buttons: [{label: 'discord', url: "https://discord.gg/uyEQkTT"}, {label: 'github', url: 'https://github.com/Jade3375/RichCord'}]
     },
     },
     nonce: "a76a42c0-802d-4c01-23c5-018d61f3499f"
