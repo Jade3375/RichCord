@@ -1,0 +1,1 @@
+export { IPC } from "./IPC/IPCClient"
