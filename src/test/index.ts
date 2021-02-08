@@ -1,7 +1,7 @@
 import {IPC} from '../index'
 
 //client takes 2 arguments, your application ID (not discord), logger: true or false
-const client = new IPC("420907324945989632") 
+const client = new IPC("420907324945989632", true) 
 
 //start the IPC client
 client.login()

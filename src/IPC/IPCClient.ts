@@ -1,5 +1,6 @@
 import net from "net"
 import { EventEmitter } from "ws"
+import util from "util"
 
 export class IPC extends EventEmitter{
     id: string
@@ -149,7 +150,7 @@ export class IPC extends EventEmitter{
                 }
                 //optional logging
                 if(this.logging) {
-                    console.log(`OPCode: ${op}, \nData: ${data.toString()}`)
+                    console.log(`OPCode: ${op}, \nData: ${util.inspect(data)}`)
                 }
                 //doubt i need this but just incase discord wants to ping us
                 switch (op) {
